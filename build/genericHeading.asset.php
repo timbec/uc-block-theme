@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('wp-block-editor', 'wp-blocks', 'wp-components', 'wp-element', 'wp-icons/build-types'), 'version' => 'a69d1c4bf57ccb19cd78f38753e33a0a');

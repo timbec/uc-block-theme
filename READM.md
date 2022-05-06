@@ -1,0 +1,1 @@
+This is a redevelopment of the Uranium City History website, using a hybrid of the Gutenberg 'Full Site Editing' features and regular Wordpress. 

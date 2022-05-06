@@ -1,0 +1,89 @@
+{
+    "version": 2,
+    "customTemplates": [
+        {
+            "name": "blank",
+            "title": "Blank",
+            "postTypes": [
+                "page",
+                "post",
+                "place"
+            ]
+        },
+        {
+            "name": "page-large-header",
+            "title": "Page (Large Header)",
+            "postTypes": [
+                "page",
+                "place"
+            ]
+        },
+        {
+            "name": "single-no-separators",
+            "title": "Single Post (No Separators)",
+            "postTypes": [
+                "post",
+                "place"
+            ]
+        },
+        {
+            "name": "page-no-separators",
+            "title": "Page (No Separators)",
+            "postTypes": [
+                "page"
+            ]
+        }
+    ],
+    "styles": {
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "text": "#FFFFFF",
+                    "background": "var(--wp--preset--color--pizza)"
+                }
+            }
+        }
+    },
+    "settings": {
+        "typography": {
+            "fontSizes": []
+        },
+        "blocks": {
+            "core/button": {
+                "border": {
+                    "color": false,
+                    "radius": false,
+                    "style": false,
+                    "width": false
+                }
+            }
+        },
+        "color": {
+            "palette": [
+                {
+                    "slug": "pizza",
+                    "color": "#0d3b66",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#ee964b",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "background",
+                    "color": "#FFFFFF",
+                    "name": "Background"
+                },
+                {
+                    "slug": "foreground",
+                    "color": "#333333",
+                    "name": "Foreground"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "840px"
+        }
+    }
+}
